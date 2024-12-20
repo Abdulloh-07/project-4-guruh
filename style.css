@@ -8,7 +8,8 @@ a{
 }
 .karusel_img{
     position: relative;
-    width: 93%;
+    width: 80%;
+    margin: 0 auto;
 }
 .karusel_img img{
     width: 100%;
@@ -45,6 +46,8 @@ a{
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .sovgalar button{
     padding: 10px 100px;
@@ -57,6 +60,4 @@ a{
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    width: 80%;
-    margin: 0 auto;
 }
