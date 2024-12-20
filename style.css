@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.karusel_img{
+    position: relative;
+}
+.karusel_img img{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}
+.left_btn{
+    position: absolute;
+    color: black;
+    top: 45%;
+    left: 30px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rgb(148, 145, 145);
+}
+.right_btn{
+    position: absolute;
+    color: black;
+    top: 45%;
+    right: 30px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rgb(148, 145, 145);
+}
+.sovgalar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.sovgalar button{
+    padding: 10px 100px;
+    border-radius: 20px;
+    background-color: rgb(219, 216, 216);
+}
+.karusel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
